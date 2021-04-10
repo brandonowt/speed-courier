@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354542058674",
+    "project_id": "speedcourier-59ee5",
+    "storage_bucket": "speedcourier-59ee5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354542058674:android:f6cf0e76fadfdb977e9dab",
+        "android_client_info": {
+          "package_name": "com.speedcourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354542058674-riotogmjj7uc89bj5b5jv4500ms43f0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB98R60T0RgGFHDHe0Jpp-vLFTjOayQmoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354542058674-riotogmjj7uc89bj5b5jv4500ms43f0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

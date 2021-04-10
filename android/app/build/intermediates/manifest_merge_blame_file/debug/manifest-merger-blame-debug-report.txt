@@ -1,0 +1,412 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.speedcourier"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <permission
+14-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:7:5-9:47
+15        android:name="com.speedcourier.permission.C2D_MESSAGE"
+15-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:8:9-63
+16        android:protectionLevel="signature" />
+16-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:9:9-44
+17
+18    <uses-permission android:name="com.speedcourier.permission.C2D_MESSAGE" />
+18-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:11:5-79
+18-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+19-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:17:5-82
+19-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:17:22-79
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:18:5-68
+20-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:18:22-65
+21    <!--
+22 Required so the device vibrates on receiving a push notification.
+23         Vibration settings of the device still apply.
+24    -->
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:23:5-66
+25-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:23:22-63
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:24:5-79
+26-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:24:22-76
+27    <!--
+28 Use to restore notifications the user hasn't interacted with.
+29         They could be missed notifications if the user reboots their device if this isn't in place.
+30    -->
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+31-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:29:5-81
+31-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:29:22-78
+32    <!-- Samsung -->
+33    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+33-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:31:5-86
+33-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:31:22-83
+34    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+34-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:32:5-87
+34-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:32:22-84
+35    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+35-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:33:5-81
+35-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:33:22-78
+36    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+36-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:34:5-83
+36-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:34:22-80
+37    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+37-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:35:5-88
+37-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:35:22-85
+38    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+38-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:36:5-92
+38-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:36:22-89
+39    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+39-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:37:5-84
+39-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:37:22-81
+40    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+40-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:38:5-83
+40-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:38:22-80
+41    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+41-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:39:5-91
+41-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:39:22-88
+42    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+42-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:40:5-92
+42-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:40:22-89
+43    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+43-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:41:5-93
+43-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:41:22-90
+44    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+44-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:42:5-73
+44-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:42:22-70
+45    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+45-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:43:5-82
+45-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:43:22-79
+46    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+46-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:44:5-83
+46-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:44:22-80
+47    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+47-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:45:5-88
+47-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:45:22-85
+48    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+48-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:46:5-89
+48-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:46:22-86
+49
+50    <application
+50-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:6:5-25:19
+51        android:name="com.speedcourier.MainApplication"
+51-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:7:7-38
+52        android:allowBackup="false"
+52-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:11:7-34
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:icon="@mipmap/ic_launcher"
+55-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:9:7-41
+56        android:label="@string/app_name"
+56-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:8:7-39
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:10:7-52
+58        android:theme="@style/AppTheme"
+58-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:12:7-38
+59        android:usesCleartextTraffic="true" >
+59-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:7:18-53
+60        <activity
+60-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:13:7-23:18
+61            android:name="com.speedcourier.MainActivity"
+61-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:14:9-37
+62            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+62-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:16:9-86
+63            android:label="@string/app_name"
+63-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:15:9-41
+64            android:launchMode="singleTask"
+64-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:17:9-40
+65            android:windowSoftInputMode="adjustResize" >
+65-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:18:9-51
+66            <intent-filter>
+66-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:19:9-22:25
+67                <action android:name="android.intent.action.MAIN" />
+67-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:20:13-65
+67-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:20:21-62
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:21:13-73
+69-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:21:23-70
+70            </intent-filter>
+71        </activity>
+72        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+72-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:24:7-84
+72-->/Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:24:17-81
+73
+74        <meta-data
+74-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:49:9-51:51
+75            android:name="onesignal_app_id"
+75-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:50:13-44
+76            android:value="" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+76-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:51:13-48
+77        <meta-data
+77-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:53:9-55:70
+78            android:name="onesignal_google_project_number"
+78-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:54:13-59
+79            android:value="str:REMOTE" />
+79-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:55:13-67
+80
+81        <receiver
+81-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:57:9-67:20
+82            android:name="com.onesignal.GcmBroadcastReceiver"
+82-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:58:13-62
+83            android:permission="com.google.android.c2dm.permission.SEND" >
+83-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:59:13-73
+84
+85            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+86            <intent-filter android:priority="999" >
+86-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:62:13-66:29
+86-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:62:28-50
+87                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+87-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:63:17-81
+87-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:63:25-78
+88
+89                <category android:name="com.speedcourier" />
+89-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:65:17-61
+89-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:65:27-58
+90            </intent-filter>
+91        </receiver>
+92        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+92-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:68:9-77
+92-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:68:19-74
+93
+94        <service
+94-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:70:9-76:19
+95            android:name="com.onesignal.HmsMessageServiceOneSignal"
+95-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:71:13-68
+96            android:exported="false" >
+96-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:72:13-37
+97            <intent-filter>
+97-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:73:13-75:29
+98                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+98-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:74:17-81
+98-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:74:25-78
+99            </intent-filter>
+100        </service>
+101
+102        <activity
+102-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:78:9-84:20
+103            android:name="com.onesignal.NotificationOpenedActivityHMS"
+103-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:79:13-71
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+104-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:80:13-72
+105            <intent-filter>
+105-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:81:13-83:29
+106                <action android:name="android.intent.action.VIEW" />
+106-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:82:17-69
+106-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:82:25-66
+107            </intent-filter>
+108        </activity>
+109
+110        <service android:name="com.onesignal.GcmIntentService" />
+110-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:86:9-66
+110-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:86:18-63
+111        <service
+111-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:87:9-89:72
+112            android:name="com.onesignal.GcmIntentJobService"
+112-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:88:13-61
+113            android:permission="android.permission.BIND_JOB_SERVICE" />
+113-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:89:13-69
+114        <service
+114-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:90:9-92:72
+115            android:name="com.onesignal.RestoreJobService"
+115-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:91:13-59
+116            android:permission="android.permission.BIND_JOB_SERVICE" />
+116-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:92:13-69
+117        <service
+117-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:93:9-95:72
+118            android:name="com.onesignal.RestoreKickoffJobService"
+118-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:94:13-66
+119            android:permission="android.permission.BIND_JOB_SERVICE" />
+119-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:95:13-69
+120        <service
+120-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:96:9-98:43
+121            android:name="com.onesignal.SyncService"
+121-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:97:13-53
+122            android:stopWithTask="true" />
+122-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:98:13-40
+123        <service
+123-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:99:9-101:72
+124            android:name="com.onesignal.SyncJobService"
+124-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:100:13-56
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:101:13-69
+126
+127        <activity
+127-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:103:9-105:75
+128            android:name="com.onesignal.PermissionsActivity"
+128-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:104:13-61
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:105:13-72
+130
+131        <service android:name="com.onesignal.NotificationRestoreService" />
+131-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:107:9-76
+131-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:107:18-73
+132
+133        <receiver android:name="com.onesignal.BootUpReceiver" >
+133-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:109:9-114:20
+133-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:109:19-62
+134            <intent-filter>
+134-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:110:13-113:29
+135                <action android:name="android.intent.action.BOOT_COMPLETED" />
+135-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:111:17-79
+135-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:111:25-76
+136                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+136-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:112:17-82
+136-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:112:25-79
+137            </intent-filter>
+138        </receiver>
+139        <receiver android:name="com.onesignal.UpgradeReceiver" >
+139-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:115:9-119:20
+139-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:115:19-63
+140            <intent-filter>
+140-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:116:13-118:29
+141                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+141-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:117:17-84
+141-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:117:25-81
+142            </intent-filter>
+143        </receiver>
+144        <!--
+145             FirebaseMessagingService performs security checks at runtime,
+146             but set to not exported to explicitly avoid allowing another app to call it.
+147        -->
+148        <service
+148-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:28:9-35:19
+149            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+149-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:29:13-82
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:30:13-43
+151            android:exported="false" >
+151-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:31:13-37
+152            <intent-filter android:priority="-500" >
+152-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:32:13-34:29
+152-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:32:28-51
+153                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+153-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:33:17-78
+153-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:33:25-75
+154            </intent-filter>
+155        </service>
+156        <service
+156-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:36:9-42:19
+157            android:name="com.google.firebase.components.ComponentDiscoveryService"
+157-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:37:13-84
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:38:13-37
+160            <meta-data
+160-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:39:13-41:85
+161                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+161-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:40:17-119
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:41:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:32:13-34:85
+164                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+164-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:33:17-96
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:34:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+167                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+167-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
+170                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+170-->[com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
+172        </service>
+173
+174        <receiver
+174-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:37:9-44:20
+175            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+175-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:38:13-78
+176            android:exported="true"
+176-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:39:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:40:13-73
+178            <intent-filter>
+178-->[com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:41:13-43:29
+179                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+179-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:63:17-81
+179-->[com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:63:25-78
+180            </intent-filter>
+181        </receiver>
+182
+183        <provider
+183-->[com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+184            android:name="com.google.firebase.provider.FirebaseInitProvider"
+184-->[com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+185            android:authorities="com.speedcourier.firebaseinitprovider"
+185-->[com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+186            android:directBootAware="true"
+186-->[com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+187            android:exported="false"
+187-->[com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+188            android:initOrder="100" />
+188-->[com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+189
+190        <service
+190-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+191            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+191-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+192            android:exported="false" >
+192-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+193            <meta-data
+193-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+194                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+194-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+195                android:value="cct" />
+195-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+196        </service>
+197        <service
+197-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+198            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+198-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+199            android:exported="false"
+199-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+200            android:permission="android.permission.BIND_JOB_SERVICE" >
+200-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+201        </service>
+202
+203        <receiver
+203-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+204            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+204-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+205            android:exported="false" />
+205-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+206
+207        <activity
+207-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+208            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+208-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+209            android:exported="false"
+209-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+210            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+210-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+211
+212        <meta-data
+212-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+213            android:name="com.google.android.gms.version"
+213-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+214            android:value="@integer/google_play_services_version" />
+214-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+215    </application>
+216
+217</manifest>

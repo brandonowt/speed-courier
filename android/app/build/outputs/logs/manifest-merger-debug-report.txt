@@ -1,0 +1,805 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9134598f39ff992450ece10f886ec71a/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9dec2aaa1a2b48f53dd563074c1c44a6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/brandon/Desktop/react/SpeedCourier/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Users/brandon/Desktop/react/SpeedCourier/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-onesignal] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/90d85b0dc1f1ce2f5f39233448ac9275/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:2:1-122:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/113bbb28bbfc2b4e94347b4ce90e9e12/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/32d69f6b25789a80623bd9f8c555cace/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/58baa160ab535252d676d32c555673df/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/brandon/.gradle/caches/transforms-2/files-2.1/55e8e1f3452caf6d45970ff2be920e33/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:17:1-45:12
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/7661e9e624619dad65806659b4e92ea3/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/10f7bfe789ba03509b31a27380eeef40/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/54fd9679a5718fbf2009ddfae0774175/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c551e8577f67400ca38916ede5acb5fe/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5e857249bc93d7ff31520804b3a1509f/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6229222cbd11a6b47ffa53815aff93a/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/65d7bc8f0c86f952567389796f9e4f89/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a65761e9c2d43267606236e74c12cf4a/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a32e79a319e3e4796f52017cbac9ed6e/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/11b4b4977164ac3367506aa7937777f4/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/91f8378d14653cd736a23ea91c7363ac/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/e4249928cdfb41a6e082a755907bc886/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ffd7d2ad5d0a8492064b8d430ba6992a/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a2583e3d81e87b403a50e987914e4491/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/21d0c2189c636d23117c687e9dcaa1a8/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dd5b18c4f8a1c4aba0a4f23dae64f838/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/daa3c2686a1605e889aa91397aeb3607/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/0caea8347a9ef397f8895a8063f94371/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/fe8e71e101cbaf528cc486072ed4c28e/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b78a5399ea9beee523afeb7dc0d01a7c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5ee206794e9fe71a49bb30f6954e3e64/jetified-play-services-location-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/00f912dd79aab32f85042db58a22ea75/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3dcac4ee1e31a1fe1b0474d9dc513a90/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3f1b3bb51a902d680ae41844065bcba5/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c97311d95da61b97e7ea488669a93729/play-services-places-placereport-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/953c5f4b931f703e79a54c986717cc59/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6f6af6420887caf6605401baa4017e8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8f334b67506522435461c8c6eda7b7c8/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/820e61501446d59a69cd9c408eee66fc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c1c46489f35b38cfcb0b9269375d66c1/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/725e8067965810ebb015effb02057ed4/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/4b2f76bfb138c3d04b4fdb7e4a57c3f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/d9dd1f832330f9830d5573b2c42f64c9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/d0b76de50009d02ae3a61625e9c61668/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a2a604909fa57d86b75cb00eccc5776f/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c2e91d6650bc8b924caae233b030e4cd/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/1c827ac73b6372482a4fe73492ae0bb0/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/bd8d183608349f86318440748437998b/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ccf906420216b35becd418efa8fead91/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ab13f194898fca16e8460c32b937ffd6/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/cc3310bf2a05cbbcef60a1b19b9e1498/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/55ea89a89f51860ada7d02498608b299/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/0b3e62c1c3d0576dcdde711531c287ce/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2b77b338008a4a033ff8141ea7e2f236/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/807919ccc837c4755749abf0f5f0d63e/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/f58aded31185cc85b75b4af5bf41d6f0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/aff266cae9a718e77c99431eda2bbce4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8165f642d34d694f67d7935b5993c9c2/firebase-encoders-json-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c51f7beee8d8db2ab039c1193fc5997d/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c8d258fe89319cd1a6e24defa826748c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3b24523c209e746f364d111262620408/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/e18268382524a2d97ab46f9add103737/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/494632bb32bdcfc5b91d889511f3dd1c/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:16.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5da32cd926a0b74839f0e7c4d7fef4ab/jetified-firebase-components-16.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/af933a2f9189f43c4e1943e87eaab436/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2e5454e2986d1d25881079122bbcdfbd/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/420f57a583860cab9badbb9394b4cf41/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/617ab078ec38b4e786805b1956c09602/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9adc472a0276fe390f3f8a0c0f125417/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/f737253eef0d1a405c63ad080c77c4d3/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:2:3-29
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:2:3-29
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:16:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/90d85b0dc1f1ce2f5f39233448ac9275/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/90d85b0dc1f1ce2f5f39233448ac9275/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:48:5-120:19
+MERGED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:48:5-120:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/21d0c2189c636d23117c687e9dcaa1a8/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/21d0c2189c636d23117c687e9dcaa1a8/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dd5b18c4f8a1c4aba0a4f23dae64f838/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dd5b18c4f8a1c4aba0a4f23dae64f838/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5ee206794e9fe71a49bb30f6954e3e64/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5ee206794e9fe71a49bb30f6954e3e64/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/00f912dd79aab32f85042db58a22ea75/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/00f912dd79aab32f85042db58a22ea75/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3f1b3bb51a902d680ae41844065bcba5/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3f1b3bb51a902d680ae41844065bcba5/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c97311d95da61b97e7ea488669a93729/play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c97311d95da61b97e7ea488669a93729/play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6f6af6420887caf6605401baa4017e8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6f6af6420887caf6605401baa4017e8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8f334b67506522435461c8c6eda7b7c8/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8f334b67506522435461c8c6eda7b7c8/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/820e61501446d59a69cd9c408eee66fc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/820e61501446d59a69cd9c408eee66fc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/807919ccc837c4755749abf0f5f0d63e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/807919ccc837c4755749abf0f5f0d63e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.speedcourier.MainActivity
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:13:7-23:18
+	android:label
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:16:9-86
+	android:name
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9134598f39ff992450ece10f886ec71a/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9134598f39ff992450ece10f886ec71a/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9dec2aaa1a2b48f53dd563074c1c44a6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9dec2aaa1a2b48f53dd563074c1c44a6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/brandon/Desktop/react/SpeedCourier/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/brandon/Desktop/react/SpeedCourier/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/brandon/Desktop/react/SpeedCourier/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/brandon/Desktop/react/SpeedCourier/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-onesignal] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-onesignal] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/brandon/Desktop/react/SpeedCourier/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/90d85b0dc1f1ce2f5f39233448ac9275/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/90d85b0dc1f1ce2f5f39233448ac9275/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:4:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/113bbb28bbfc2b4e94347b4ce90e9e12/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/113bbb28bbfc2b4e94347b4ce90e9e12/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/32d69f6b25789a80623bd9f8c555cace/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/32d69f6b25789a80623bd9f8c555cace/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/58baa160ab535252d676d32c555673df/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/58baa160ab535252d676d32c555673df/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/brandon/.gradle/caches/transforms-2/files-2.1/55e8e1f3452caf6d45970ff2be920e33/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/brandon/.gradle/caches/transforms-2/files-2.1/55e8e1f3452caf6d45970ff2be920e33/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/7661e9e624619dad65806659b4e92ea3/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/7661e9e624619dad65806659b4e92ea3/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/10f7bfe789ba03509b31a27380eeef40/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/10f7bfe789ba03509b31a27380eeef40/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/54fd9679a5718fbf2009ddfae0774175/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/54fd9679a5718fbf2009ddfae0774175/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c551e8577f67400ca38916ede5acb5fe/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c551e8577f67400ca38916ede5acb5fe/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5e857249bc93d7ff31520804b3a1509f/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5e857249bc93d7ff31520804b3a1509f/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6229222cbd11a6b47ffa53815aff93a/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6229222cbd11a6b47ffa53815aff93a/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/65d7bc8f0c86f952567389796f9e4f89/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/65d7bc8f0c86f952567389796f9e4f89/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a65761e9c2d43267606236e74c12cf4a/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a65761e9c2d43267606236e74c12cf4a/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a32e79a319e3e4796f52017cbac9ed6e/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a32e79a319e3e4796f52017cbac9ed6e/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/11b4b4977164ac3367506aa7937777f4/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/11b4b4977164ac3367506aa7937777f4/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/91f8378d14653cd736a23ea91c7363ac/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/91f8378d14653cd736a23ea91c7363ac/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/e4249928cdfb41a6e082a755907bc886/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/e4249928cdfb41a6e082a755907bc886/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ffd7d2ad5d0a8492064b8d430ba6992a/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ffd7d2ad5d0a8492064b8d430ba6992a/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a2583e3d81e87b403a50e987914e4491/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a2583e3d81e87b403a50e987914e4491/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/21d0c2189c636d23117c687e9dcaa1a8/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/21d0c2189c636d23117c687e9dcaa1a8/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dd5b18c4f8a1c4aba0a4f23dae64f838/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dd5b18c4f8a1c4aba0a4f23dae64f838/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/daa3c2686a1605e889aa91397aeb3607/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/daa3c2686a1605e889aa91397aeb3607/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/0caea8347a9ef397f8895a8063f94371/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/0caea8347a9ef397f8895a8063f94371/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/fe8e71e101cbaf528cc486072ed4c28e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/fe8e71e101cbaf528cc486072ed4c28e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b78a5399ea9beee523afeb7dc0d01a7c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b78a5399ea9beee523afeb7dc0d01a7c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5ee206794e9fe71a49bb30f6954e3e64/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5ee206794e9fe71a49bb30f6954e3e64/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/00f912dd79aab32f85042db58a22ea75/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/00f912dd79aab32f85042db58a22ea75/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3dcac4ee1e31a1fe1b0474d9dc513a90/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3dcac4ee1e31a1fe1b0474d9dc513a90/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3f1b3bb51a902d680ae41844065bcba5/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3f1b3bb51a902d680ae41844065bcba5/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c97311d95da61b97e7ea488669a93729/play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c97311d95da61b97e7ea488669a93729/play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/953c5f4b931f703e79a54c986717cc59/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/953c5f4b931f703e79a54c986717cc59/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6f6af6420887caf6605401baa4017e8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b6f6af6420887caf6605401baa4017e8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8f334b67506522435461c8c6eda7b7c8/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8f334b67506522435461c8c6eda7b7c8/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/820e61501446d59a69cd9c408eee66fc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/820e61501446d59a69cd9c408eee66fc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c1c46489f35b38cfcb0b9269375d66c1/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c1c46489f35b38cfcb0b9269375d66c1/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/725e8067965810ebb015effb02057ed4/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/725e8067965810ebb015effb02057ed4/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/4b2f76bfb138c3d04b4fdb7e4a57c3f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/4b2f76bfb138c3d04b4fdb7e4a57c3f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/d9dd1f832330f9830d5573b2c42f64c9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/d9dd1f832330f9830d5573b2c42f64c9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/d0b76de50009d02ae3a61625e9c61668/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/d0b76de50009d02ae3a61625e9c61668/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a2a604909fa57d86b75cb00eccc5776f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a2a604909fa57d86b75cb00eccc5776f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c2e91d6650bc8b924caae233b030e4cd/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c2e91d6650bc8b924caae233b030e4cd/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/1c827ac73b6372482a4fe73492ae0bb0/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/1c827ac73b6372482a4fe73492ae0bb0/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/bd8d183608349f86318440748437998b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/bd8d183608349f86318440748437998b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ccf906420216b35becd418efa8fead91/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ccf906420216b35becd418efa8fead91/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ab13f194898fca16e8460c32b937ffd6/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ab13f194898fca16e8460c32b937ffd6/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/cc3310bf2a05cbbcef60a1b19b9e1498/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/cc3310bf2a05cbbcef60a1b19b9e1498/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/55ea89a89f51860ada7d02498608b299/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/55ea89a89f51860ada7d02498608b299/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/0b3e62c1c3d0576dcdde711531c287ce/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/0b3e62c1c3d0576dcdde711531c287ce/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2b77b338008a4a033ff8141ea7e2f236/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2b77b338008a4a033ff8141ea7e2f236/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/807919ccc837c4755749abf0f5f0d63e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/807919ccc837c4755749abf0f5f0d63e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/f58aded31185cc85b75b4af5bf41d6f0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/f58aded31185cc85b75b4af5bf41d6f0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/aff266cae9a718e77c99431eda2bbce4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/aff266cae9a718e77c99431eda2bbce4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8165f642d34d694f67d7935b5993c9c2/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/8165f642d34d694f67d7935b5993c9c2/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c51f7beee8d8db2ab039c1193fc5997d/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c51f7beee8d8db2ab039c1193fc5997d/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c8d258fe89319cd1a6e24defa826748c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c8d258fe89319cd1a6e24defa826748c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3b24523c209e746f364d111262620408/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3b24523c209e746f364d111262620408/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/e18268382524a2d97ab46f9add103737/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/e18268382524a2d97ab46f9add103737/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/494632bb32bdcfc5b91d889511f3dd1c/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/494632bb32bdcfc5b91d889511f3dd1c/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5da32cd926a0b74839f0e7c4d7fef4ab/jetified-firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.1] /Users/brandon/.gradle/caches/transforms-2/files-2.1/5da32cd926a0b74839f0e7c4d7fef4ab/jetified-firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/af933a2f9189f43c4e1943e87eaab436/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/af933a2f9189f43c4e1943e87eaab436/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2e5454e2986d1d25881079122bbcdfbd/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2e5454e2986d1d25881079122bbcdfbd/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/420f57a583860cab9badbb9394b4cf41/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/420f57a583860cab9badbb9394b4cf41/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/617ab078ec38b4e786805b1956c09602/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/617ab078ec38b4e786805b1956c09602/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9adc472a0276fe390f3f8a0c0f125417/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9adc472a0276fe390f3f8a0c0f125417/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/f737253eef0d1a405c63ad080c77c4d3/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/f737253eef0d1a405c63ad080c77c4d3/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/brandon/Desktop/react/SpeedCourier/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:22-73
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:8:9-63
+permission#com.speedcourier.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:8:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:11:22-76
+uses-permission#com.speedcourier.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:11:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:17:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:18:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:23:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/2358f4dcbde0ef87bad7724948ba82bd/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:29:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:32:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:39:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:40:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:41:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:46:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:49:9-51:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:50:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:54:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:57:9-67:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:58:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:62:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.speedcourier
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:62:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:63:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:65:27-58
+category#com.speedcourier
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:65:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:68:19-74
+service#com.onesignal.HmsMessageServiceOneSignal
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:70:9-76:19
+	android:exported
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:71:13-68
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:73:13-75:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:74:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:74:25-78
+activity#com.onesignal.NotificationOpenedActivityHMS
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:78:9-84:20
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:80:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:79:13-71
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:81:13-83:29
+action#android.intent.action.VIEW
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:82:25-66
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:86:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:86:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:87:9-89:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:89:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:88:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:90:9-92:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:92:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:91:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:93:9-95:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:95:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:94:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:96:9-98:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:98:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:97:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:99:9-101:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:101:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:100:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:103:9-105:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:105:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:104:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:107:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:107:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:109:9-114:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:109:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:110:13-113:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:111:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:111:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:112:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:112:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:115:9-119:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:115:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:116:13-118:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:117:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.6] /Users/brandon/.gradle/caches/transforms-2/files-2.1/ba69299826f53fbcf372fc1eff9d4858/jetified-OneSignal-3.15.6/AndroidManifest.xml:117:25-81
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:28:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:31:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:32:13-34:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:32:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:33:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:33:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:36:9-42:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:38:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:37:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:39:13-41:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/819982c9abf39f3b99619051b6658330/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:40:17-119
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/a78eb796179cddbcb73ccd400832657b/firebase-iid-21.0.0/AndroidManifest.xml:41:13-43:29
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/brandon/.gradle/caches/transforms-2/files-2.1/c4f9a0d168992baa77ee2aeb680d0a52/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.4] /Users/brandon/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/567a3de516b35c817eb7b0789143a1d3/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/3116d236fbef1dcdfacb6517e9bed953/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/720db66f8004ac21031e2222069601f3/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/9c0d3fc6122dbe9b0a872eab92b3b948/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brandon/.gradle/caches/transforms-2/files-2.1/b25c5d3c97d32da118053e1b66c069e2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

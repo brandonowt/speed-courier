@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">354542058674-riotogmjj7uc89bj5b5jv4500ms43f0b.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">354542058674</string>
+    <string name="google_api_key" translatable="false">AIzaSyB98R60T0RgGFHDHe0Jpp-vLFTjOayQmoo</string>
+    <string name="google_app_id" translatable="false">1:354542058674:android:f6cf0e76fadfdb977e9dab</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB98R60T0RgGFHDHe0Jpp-vLFTjOayQmoo</string>
+    <string name="google_storage_bucket" translatable="false">speedcourier-59ee5.appspot.com</string>
+    <string name="project_id" translatable="false">speedcourier-59ee5</string>
+</resources>
